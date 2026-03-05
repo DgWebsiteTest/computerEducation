@@ -1,0 +1,70 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-toggler-icon{
+    cursor: pointer;
+}
+.mymenu{
+    box-shadow: 0px 5px 10px 0px #ccc;
+}
+#home{
+    background-color:white;
+    padding:20px;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+#service, #clients, #price{
+    padding:20px;
+}
+#service h4{
+    font-size: 21px;
+}
+.raleway-heading {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.el-messiri-heading {
+  font-family: "El Messiri", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.service-icon{
+    font-size:30px;
+    background-color: white ! important;
+    border:1px solid #ccc;
+    padding:15px;
+    box-shadow:0px 0px 5px 0px #323232;
+    border-radius: 50%;
+    width: 80px;
+    height:80px;    
+}
+.pd{
+    padding: 20px;
+}
+.client-pic{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:3px solid #fff;
+    box-shadow: 0px 0px 5px grey;
+    margin-bottom: 10px;
+}
+.social-icon{
+    border:1px solid black;
+    padding:10px;
+    font-size:40px;
+    width:30px;
+    height:30px;
+}
+a.nav-link.active{
+    background-color: black;
+    color:white !important;
+}
